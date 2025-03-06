@@ -124,7 +124,7 @@ while ($fila = $consulta->fetch(PDO::FETCH_ASSOC)) {
 
 ---
 
-/~## **5. Cierre y Preguntas (10 min)**
+## **5. Cierre y Preguntas (10 min)**
 - Repasar conceptos clave:  
   - Funcionamiento de los navegadores.  
   - Cómo se comunican los clientes y servidores mediante HTTP.
