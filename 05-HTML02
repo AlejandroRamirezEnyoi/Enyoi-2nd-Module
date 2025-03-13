@@ -1,0 +1,137 @@
+# 📌 **Index HTML y Estructura Básica**  
+
+## 🔹 Introducción  
+HTML (**HyperText Markup Language**) es el lenguaje de marcado utilizado para definir la estructura de una página web. Todas las páginas HTML comienzan con un archivo llamado `index.html`, que actúa como la página principal.  
+
+---
+
+## 🏗 **Estructura Básica de un Archivo HTML**  
+Un archivo HTML sigue una estructura estándar:  
+
+```html
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Mi Primera Página</title>  
+</head>  
+<body>  
+    <h1>¡Hola, mundo!</h1>  
+    <p>Esta es mi primera página web.</p>  
+</body>  
+</html>  
+```  
+
+🔹 **Explicación de cada parte:**  
+- `<!DOCTYPE html>` → Define la versión de HTML (HTML5).  
+- `<html lang="es">` → Indica el idioma del documento.  
+- `<head>` → Contiene metadatos y configuraciones del documento.  
+- `<meta charset="UTF-8">` → Define la codificación de caracteres.  
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">` → Hace que el sitio sea responsive.  
+- `<title>` → Define el título de la página (aparece en la pestaña del navegador).  
+- `<body>` → Contiene todo el contenido visible de la página.  
+
+---
+
+## 🔹 **Principales Etiquetas en HTML**  
+
+HTML se basa en etiquetas para estructurar el contenido. Algunas de las más usadas son:  
+
+### 📌 **Encabezados**  
+Se usan para definir títulos y subtítulos.  
+
+```html
+<h1>Título Principal</h1>  
+<h2>Subtítulo</h2>  
+<h3>Encabezado 3</h3>  
+<h4>Encabezado 4</h4>  
+<h5>Encabezado 5</h5>  
+<h6>Encabezado 6</h6>  
+```  
+
+### 📌 **Párrafos y Texto**  
+Se utilizan para escribir contenido textual.  
+
+```html
+<p>Este es un párrafo.</p>  
+<strong>Texto en negrita</strong>  
+<em>Texto en cursiva</em>  
+```  
+
+### 📌 **Listas**  
+Se utilizan para organizar elementos en formato de lista.  
+
+**Lista ordenada:**  
+```html
+<ol>  
+    <li>Primer elemento</li>  
+    <li>Segundo elemento</li>  
+    <li>Tercer elemento</li>  
+</ol>  
+```  
+
+**Lista desordenada:**  
+```html
+<ul>  
+    <li>Elemento 1</li>  
+    <li>Elemento 2</li>  
+    <li>Elemento 3</li>  
+</ul>  
+```  
+
+### 📌 **Enlaces**  
+Para crear hipervínculos entre páginas.  
+
+```html
+<a href="https://www.google.com">Ir a Google</a>  
+```  
+
+### 📌 **Imágenes**  
+Para mostrar imágenes en la web.  
+
+```html
+<img src="imagen.jpg" alt="Descripción de la imagen">  
+```  
+
+### 📌 **Tablas**  
+Para mostrar datos en filas y columnas.  
+
+```html
+<table border="1">  
+    <tr>  
+        <th>Nombre</th>  
+        <th>Edad</th>  
+    </tr>  
+    <tr>  
+        <td>Juan</td>  
+        <td>25</td>  
+    </tr>  
+</table>  
+```  
+
+### 📌 **Formularios**  
+Para recolectar información del usuario.  
+
+```html
+<form action="/procesar" method="POST">  
+    <label for="nombre">Nombre:</label>  
+    <input type="text" id="nombre" name="nombre">  
+    <input type="submit" value="Enviar">  
+</form>  
+```  
+
+---
+
+## 🎯 **Ejercicio Práctico (30%)**  
+Crea un archivo `index.html` con la estructura básica de HTML e incluye:  
+1. Un título principal (`h1`).  
+2. Un párrafo con una breve descripción.  
+3. Una lista con al menos 3 elementos.  
+4. Un enlace a otra página.  
+5. Una imagen con `alt`.  
+6. Un formulario con un campo de texto y un botón de envío.  
+
+---
+
+
