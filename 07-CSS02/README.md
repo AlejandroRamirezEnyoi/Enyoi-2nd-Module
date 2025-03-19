@@ -22,9 +22,6 @@ En CSS, **todos los elementos** de una página web se representan como **cajas r
 🔹 **Border** → Línea que rodea el contenido y el padding.  
 🔹 **Margin** → Espacio externo entre el borde del elemento y otros elementos.  
 
-📌 **Ejemplo visual del modelo de caja:**  
-
-+-------------------------------+ | Margin | | +-----------------------+ | | | Border | | | | +---------------+ | | | | | Padding | | | | | | +---------+ | | | | | | | Content | | | | | | | +---------+ | | | | | | | | | | | +---------------+ | | | +-----------------------+ | +-------------------------------+
 
 📌 **Ejemplo en CSS:**  
 ```css
