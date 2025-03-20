@@ -24,7 +24,7 @@ El elemento sigue el flujo normal del documento.
   position: static;
 }
 ```
-📍 relative (Posición relativa)
+### 📍 `relative` (Posición relativa)
 El elemento se mueve relativo a su posición original con top, left, right, bottom.
 
 ```css
@@ -35,8 +35,8 @@ El elemento se mueve relativo a su posición original con top, left, right, bott
 }
 ```
 
-📍 absolute (Posición absoluta)
-El elemento se mueve respecto a su elemento padre con position: relative o, si no tiene, respecto al <body>.
+### 📍 `absolute` (Posición absoluta)
+El elemento se mueve respecto al primer elemento padre con position distinto a position:static o, si no tiene, respecto al `<body>`.
 
 ```css
 .padre {
@@ -48,7 +48,7 @@ El elemento se mueve respecto a su elemento padre con position: relative o, si n
   left: 100px;
 }
 ```
-📍 fixed (Fijo en la pantalla)
+### 📍 `fixed` (Fijo en la pantalla)
 El elemento se mantiene en la misma posición aunque se haga scroll.
 
 ```css
@@ -60,7 +60,7 @@ El elemento se mantiene en la misma posición aunque se haga scroll.
   color: white;
 }
 ```
-📍 sticky (Se mantiene fijo al hacer scroll)
+### 📍 `sticky` (Se mantiene fijo al hacer scroll)
 El elemento se pega en una posición cuando el usuario hace scroll.
 
 ```css
@@ -70,10 +70,10 @@ El elemento se pega en una posición cuando el usuario hace scroll.
   background: yellow;
 }
 ```
-🔵 2. Propiedad display en CSS
+## 🔵 2. Propiedad display en CSS
 Controla cómo se presentan los elementos en la página.
 
-📌 block
+### 📌 block
 Los elementos ocupan todo el ancho disponible y empiezan en una nueva línea.
 
 ```css
@@ -81,7 +81,7 @@ div {
   display: block;
 }
 ```
-📌 inline
+### 📌 inline
 Los elementos solo ocupan el ancho de su contenido y no permiten modificar width o height.
 
 ```css
@@ -89,7 +89,7 @@ span {
   display: inline;
 }
 ```
-📌 inline-block
+### 📌 inline-block
 Similar a inline, pero permite modificar width y height.
 
 ```css
@@ -99,7 +99,7 @@ Similar a inline, pero permite modificar width y height.
   height: 50px;
 }
 ```
-📌 flex (Modelo de Caja Flexible)
+### 📌 flex (Modelo de Caja Flexible)
 Permite distribuir elementos de forma flexible en filas o columnas.
 
 ```css
@@ -109,7 +109,7 @@ Permite distribuir elementos de forma flexible en filas o columnas.
   align-items: center;
 }
 ```
-📌 grid (Diseño en cuadrícula)
+### 📌 grid (Diseño en cuadrícula)
 Organiza los elementos en filas y columnas.
 
 ```css
@@ -118,10 +118,10 @@ Organiza los elementos en filas y columnas.
   grid-template-columns: repeat(3, 1fr);
 }
 ```
-🟠 3. Variables en CSS
+## 🟠 3. Variables en CSS
 Las variables en CSS permiten reutilizar valores en diferentes estilos.
 
-📌 Definir una variable:
+### 📌 Definir una variable:
 
 ```css
 :root {
@@ -129,7 +129,7 @@ Las variables en CSS permiten reutilizar valores en diferentes estilos.
   --espaciado: 10px;
 }
 ```
-📌 Usar la variable:
+### 📌 Usar la variable:
 
 ```css
 .boton {
@@ -137,14 +137,14 @@ Las variables en CSS permiten reutilizar valores en diferentes estilos.
   padding: var(--espaciado);
 }
 ```
-📌 Modificar una variable en un elemento específico:
+### 📌 Modificar una variable en un elemento específico:
 
 ```css
 .card {
   --color-primario: #e74c3c;
 }
 ```
-✍️ Ejercicio Práctico
+### ✍️ Ejercicio Práctico
 Instrucciones:
 1️⃣ Crea un menú de navegación fijo usando position: fixed.
 2️⃣ Agrega una caja flotante usando position: absolute.
