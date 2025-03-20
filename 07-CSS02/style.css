@@ -5,7 +5,8 @@
 }
 
 html {
-	font-size: 200px;
+	font-size: 16px; /* valor de referencia para el rem */ 
+	
 }
 
 #padre {
@@ -14,11 +15,23 @@ html {
 	width: 50vw;
 	font-size: 50px;
 	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #hijo{
 	background-color: blueviolet;
-	height: 1rem;
-	width: 1rem;
-	border-radius: .5rem;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px ;
+	transition: ease 1s;
+}
+
+#hijo:hover{
+	cursor: pointer;
+	background-color: aqua;
+	height: 120px;
+	width: 120px;
+	transition: ease 2s;
 }
