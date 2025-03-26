@@ -59,6 +59,6 @@ ul > li {
 }
 
 .item:hover {
-	transform: translateX(-300px);
+	transform: translateY(100px) translateX(-300px);
 	cursor: pointer;
 }
