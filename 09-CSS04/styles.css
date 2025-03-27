@@ -58,7 +58,21 @@ ul > li {
 	color: #3498db;
 }
 
-.item:hover {
-	transform: translateY(100px) translateX(-300px);
-	cursor: pointer;
+.item2 {
+
+	background-color: rgb(113, 94, 238);
+	transition: 1s ease-in-out;
+}
+
+.grid{
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(12, 40px);
+	grid-template-rows: repeat(4, 100px);
+}
+
+#item-big{
+	background-color: green;
+	grid-column: 5 / 9;
+	grid-row: 1 / 4;
 }
