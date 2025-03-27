@@ -1,0 +1,34 @@
+body {
+  background-color: lightblue;
+}
+
+.gallery{
+	display: grid;
+	grid-template-columns: repeat(4, 280px);
+	grid-template-rows: repeat(4, 240px);
+	background-color: aliceblue;
+}
+.gallery__image{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.gallery--dark{
+	background-color: black;
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    background-color: lightcoral;
+  }
+	#gallery{
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		width: 80%;
+	}
+	.image{
+		height: 240px;
+	}
+}
