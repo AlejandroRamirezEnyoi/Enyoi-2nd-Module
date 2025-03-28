@@ -1,0 +1,65 @@
+*,
+::after,
+::before {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*Utils */
+body {
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+body div {
+  width: 100%;
+  background-color: rgba(102, 238, 102, 0.9333333333);
+  height: 200px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+body hr {
+  background-color: #0f0f0f;
+  height: 5px;
+  width: 90%;
+  height: 10px;
+  width: 50px;
+}
+
+main {
+  height: 50vh;
+  width: 90vw;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main hr {
+  width: 100%;
+  background-color: #0f0f0f;
+  height: 55px;
+}
+main div {
+  background-color: rgba(102, 238, 102, 0.9333333333);
+  height: 50px;
+  width: 90%;
+  box-shadow: 10px 150px 150px rgba(0, 0, 0, 0.5);
+}
+
+/* body {
+	Reglas del body
+}
+
+body > div {
+	Reglas de div's dentro del body
+}
+
+body > hr {
+	Reglas de hr's dentro del body
+}
+
+*//*# sourceMappingURL=style.css.map */

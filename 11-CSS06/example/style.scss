@@ -1,0 +1,84 @@
+$main-color: #0f0f0f;
+$secondary-color: #6e6e;
+
+*,
+::after,
+::before{
+	box-sizing: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/*Utils */
+@mixin flex-col-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin sombra($sombra: 5px 5px 10px rgba(0, 0, 0, 0.3)) {
+  box-shadow: $sombra;
+}
+
+@mixin height-width ($height:10px, $width:50px) {
+	height: $height;
+	width: $width;
+}
+
+
+
+body {
+	background-color: $main-color;
+	@include flex-col-center();
+	gap: 15px;
+
+	div {
+		width: 100%;
+		background-color: $secondary-color;
+		height: 200px;
+		@include sombra();
+	};
+
+	hr{
+		background-color: $main-color;
+		height: 5px;
+		width: 90%;
+		@include height-width();
+	};
+
+}
+
+main {
+	height: 50vh;
+	width: 90vw;
+	background-color: aqua;
+	@include flex-col-center();
+
+	hr{
+		width: 100%;
+		background-color: $main-color;
+		height: 55px;
+	};
+
+	div{
+		background-color: $secondary-color;
+		@include height-width(50px,90% );
+		@include sombra(10px 150px 150px rgba(0, 0, 0, 0.5));
+	};
+
+}
+
+/* body {
+	Reglas del body
+}
+	
+body > div {
+	Reglas de div's dentro del body
+}
+
+body > hr {
+	Reglas de hr's dentro del body
+}
+
+*/
