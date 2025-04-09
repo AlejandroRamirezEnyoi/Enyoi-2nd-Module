@@ -1,7 +1,9 @@
 ## 🔍 git status: Ver el estado de los cambios
 Muestra qué archivos han cambiado, cuáles están en staging, y cuáles aún no han sido añadidos.
 
-```bash git status ```
+```bash 
+git status
+```
 
 ## 📦 git add: Añadir archivos al área de staging
 Prepara archivos para ser confirmados. Puedes añadir uno, varios o todos los archivos modificados.
