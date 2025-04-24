@@ -1,5 +1,13 @@
 # 🧠 Ejercicios de Repaso: JavaScript Básico
 
+
+## 0. Crear repositorio para montar archivos
+
+**Enunciado:**  
+Crear un repositorio donde vas a subir cada uno de tus archivos a github
+
+---
+
 ## 1. Suma de dos números
 
 **Enunciado:**  
